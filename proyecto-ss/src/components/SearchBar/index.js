@@ -41,7 +41,7 @@ export default (props) => {
     return (
         // <Box className={classes.wrapper}>
         <Box p={2} mt={-5} mb={2} sx={{backgroundColor: "#fff", display: "flex", boxShadow: "0px 1px 5px rgba(0,0,0,0.1)", borderRadius: "5px", "& > *": {flex: 1, height: "45px", margin: "8px"}}}>
-            <FormControl variant="filled" sx={{ mx: 1, mt: 1 }} size="small"> 
+            <FormControl variant="filled" sx={{ mx: 1, mt: 0 }} size="small"> 
                 <InputLabel id="filter1">Horas</InputLabel>
                 <Select labelId="filter1" label="Horas" disableUnderline name="horas" value={proyectoSearch.horas} onChange={handleChange}>
                     <MenuItem value="">
@@ -52,7 +52,7 @@ export default (props) => {
                     <MenuItem value="120">120 Horas</MenuItem>
                 </Select>
             </FormControl>
-            <FormControl variant="filled" sx={{ mx: 1, mt: 1 }} size="small"> 
+            <FormControl variant="filled" sx={{ mx: 1, mt: 0 }} size="small"> 
                 <InputLabel id="filter2">Modalidad</InputLabel>
                 <Select labelId="filter2" label="Modalidad" disableUnderline name="tipo" value={proyectoSearch.tipo} onChange={handleChange}>
                     <MenuItem value="">

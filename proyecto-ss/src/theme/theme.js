@@ -1,6 +1,6 @@
 import { createTheme  } from "@mui/material";
 
-const primary = "#4D64E4";
+const primary = "#3f51b5";
 const secondary = "#0B0B15";
 
 export default createTheme ({
