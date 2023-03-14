@@ -41,14 +41,14 @@ export default (props) => (
                 <img src={logo} width="100"/>
             </Grid>
             <Grid item xs={6}>
-                <Typography fontWeight={700} variant="h4">Catálogo de Servicio Social</Typography>
+                <Typography fontWeight={700} variant="h4">Creación de Proyectos Solidarios</Typography>
             </Grid>
             <Grid item xs={2} >
                 <Box alignItems="center" mt={-1} p={1} sx={{ display: 'flex'}} >
-                    <Avatar {...stringAvatar('Angel Luna')} />
+                    <Avatar {...stringAvatar('AEDO MEX')} />
                     <Stack mt={-0.5} spacing={0.5} ml={2}>
-                    <Typography fontWeight={700}>Angel Luna</Typography>
-                    <Typography variant="body2" >a01177358@tec.mx</Typography>
+                    <Typography fontWeight={700}>AEDOMEX</Typography>
+                    <Typography variant="body2" >osf@gmail.com</Typography>
                     </Stack>
                     <Box ml={1}>
                         <MoreVertIcon ></MoreVertIcon>

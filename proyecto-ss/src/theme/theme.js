@@ -31,7 +31,7 @@ export default createTheme ({
       outlined: {
         borderRadius: "35px",
         borderColor: secondary,
-        padding: "6px 20px",
+        padding: "6px 24px",
       },
     },
     MuiSelect: {

@@ -5,18 +5,19 @@ import LoginIcon from '@mui/icons-material/Login';
 import { collection, doc, getDoc } from "firebase/firestore";
 import { db } from "../../firebase/config.js";
 import { useNavigate } from 'react-router-dom';
+import theme from "../../theme/theme";
 
 export default function Login() {
 
     const navigate = useNavigate();
 
-    const paperStyle = {padding: 20, height: '50vh', width: 280, margin: "auto"};
-    const avatarStyle = {backgroundColor:"#4D64E4"}
-    const iconStyle = {color:"#0B0B15"}
-    const buttonStyle = {backgroundColor: "#4D64E4"}
+    const paperStyle = {padding: 20, width: 280, margin: "auto"};
+    const avatarStyle = {backgroundColor:"#0B0B15"}
+    const iconStyle = {color:"#FFFFFF"}
+    const buttonStyle = {backgroundColor: "#3f51b5"}
     const pageStyle = {
         // backgroundImage: `url(${require('../images/backgroundLogin.jpg').default})`,
-        backgroundColor: "#4D64E4",
+        backgroundColor: "#0B0B15",
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         minHeight: '100vh',
@@ -71,7 +72,7 @@ export default function Login() {
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
                     <Avatar style={avatarStyle}><LoginIcon style={iconStyle}/></Avatar>
-                    <h2> Sign In </h2>
+                    <h2> Oferta de Proyectos Solidarios </h2>
                     <TextField label='Username' placeholder='Enter username' sx={{marginBottom:1}} fullWidth required value={username} onChange={handleUsernameChange} />
                     <TextField
                         label='Password'
